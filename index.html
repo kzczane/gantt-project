@@ -485,7 +485,7 @@
         ui.detailMetrics.style.display = 'grid';
         ui.detailKicker.textContent = task.kicker;
         ui.detailTitle.textContent = task.title;
-        ui.detailText.innerHTML = `${task.title}${task.critical ? '<br><br><span class="critical-badge">Chemin critique</span>' : ''}`;
+        ui.detailText.innerHTML = `${task.title}${task.critical ? '<br><br><span class="critical-badge">Points importants</span>' : ''}`;
         ui.detailDates.textContent = task.dates;
         ui.detailLivrable.textContent = task.livrable;
         ui.detailProgress.textContent = `${task.progress}%`;
